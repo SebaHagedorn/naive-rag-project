@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "naive-rag"
+version = "0.1.0"
+description = ""
+authors = ["SebaHagedorn <sebastian.hagedorn@unholster.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^1.17.1"
+
+[tool.poetry.group.dev.dependencies]
+# Development-specific dependencies.
+ruff = "~0.1.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
