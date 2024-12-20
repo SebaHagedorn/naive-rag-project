@@ -3,9 +3,9 @@ Naive Rag Project to learn the basics of implementing a RAG architecture with un
 
 ## How to use:
 
-1. Set pyenv version: (at root in repo)
+1. Install Poetry:
 ```
-pyenv local 3.11.x
+pip install poetry
 ```
 
 2. Install dependencies:
